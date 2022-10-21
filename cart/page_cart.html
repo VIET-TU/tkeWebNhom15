@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Table</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/header.css" />
+    <link rel="stylesheet" href="./CSS/footer.css" />
+    <link rel="stylesheet" href="./cart.css" />
+    <link rel="stylesheet" href="./CSS/main.css" />
+  </head>
+  <body>
+    <div class="main-header">
+      <div class="wrap-menu-toogle">
+        <div class="menu-toogle">
+          <div class="wrap-nav-logo">
+            <div class="wrap-menu-toggle-navi">
+              <div class="wrap-icon-bar">
+                <i
+                  class="fa fa-bars menu-toggle-icon"
+                  style="pointer-events: visible"
+                ></i>
+              </div>
+              <ul class="menu-toggle-navi">
+                <li class="menu-toggle-item">
+                  <a href="./index.html" class="home">Home</a>
+                </li>
+                <li class="menu-toggle-item dropdow_nav">
+                  <a href="#" class="category" style="pointer-events: none"
+                    >Category</a
+                  >
+                  <i
+                    class="fa fa-caret-down dropdow_caret"
+                    style="pointer-events: none"
+                  >
+                  </i>
+                  <div class="menu-toggle-dropdow">
+                    <ul class="menu-toggle-dropdow-list">
+                      <li class="menu-toggle-dropdow-item">
+                        <a
+                          class="menu-toggle-dropdow-effect"
+                          href="Category/All products/index.html"
+                          ><span> All products </span></a
+                        >
+                      </li>
+                      <li class="menu-toggle-dropdow-item">
+                        <a
+                          class="menu-toggle-dropdow-effect"
+                          href="Category/Furniture/index.html"
+                          ><span> Furniture </span></a
+                        >
+                      </li>
+                      <li class="menu-toggle-dropdow-item">
+                        <a
+                          class="menu-toggle-dropdow-effect"
+                          href="./Category/Sale/index.html"
+                          ><span> Sale </span></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-toggle-item">
+                  <a href="Blog/index.html" class="blog">Blog</a>
+                </li>
+                <li class="menu-toggle-item">
+                  <a href="About/index.html" class="about">About</a>
+                </li>
+              </ul>
+            </div>
+            <div class="logo">
+              <a href="./index.html">
+                <img src="../IMG/IMG_LOGO/logo.png " alt="img" />
+              </a>
+            </div>
+          </div>
+          <div class="wrap-search-cart">
+            <div class="wrap-search">
+              <i class="fa fa-search icon-search"></i>
+            </div>
+            <div class="menu-toggle-cart">
+              <div class="wrap-incon-cart">
+                <div class="menu-toggle-count-holder">
+                  <span class="menu-toggle-count"></span>
+                </div>
+                <i class="fa fa-shopping-cart icon-cart"></i>
+              </div>
+              <div
+                class="menu-toggle-action_dropdown_cart action_dropdown_cart"
+              >
+                <div class="sitenav_content">
+                  <div class="sitenav_content_title">
+                    <p class="text_title">Cart</p>
+                  </div>
+                  <div class="sitenav_content_block cart-view">
+                    <div class="cart-view-scroll">
+                      <div class="menu-toggle-cart-view-render">
+                        <div class="menu-togglemini-cart__empty" style="">
+                          <div>
+                            <div class="svgico-mini-cart">
+                              <svg
+                                width="81"
+                                height="70"
+                                viewBox="0 0 81 70"
+                                style="
+                                  stroke: #000000;
+                                  width: 50px;
+                                  height: 50px;
+                                  margin: 5px auto 0;
+                                "
+                              >
+                                <g
+                                  transform="translate(0 2)"
+                                  stroke-width="4"
+                                  fill="none"
+                                  fill-rule="evenodd"
+                                >
+                                  <circle
+                                    stroke-linecap="square"
+                                    cx="34"
+                                    cy="60"
+                                    r="6"
+                                  ></circle>
+                                  <circle
+                                    stroke-linecap="square"
+                                    cx="67"
+                                    cy="60"
+                                    r="6"
+                                  ></circle>
+                                  <path
+                                    d="M22.9360352 15h54.8070373l-4.3391876 30H30.3387146L19.6676025 0H.99560547"
+                                  ></path>
+                                </g>
+                              </svg>
+                            </div>
+                            Your cart is currently empty.
+                          </div>
+                        </div>
+                        <div class="menu-toogle-cart-view-render-item"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart-view-line"></div>
+                  <div class="cart-view-total">
+                    <div class="cart_total_text">
+                      <span class="total_text">Total:</span>
+                      <span class="menu-toggle-total_price">$0</span>
+                    </div>
+                    <form class="cart_button" action="./cart/page_cart.html">
+                      <button type="submit" class="btn btn-animation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span>View Cart</span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrap-header">
+        <div class="header" id="head">
+          <div class="logo">
+            <a href="#head">
+              <img src="../IMG/IMG_LOGO/logo.png " />
+            </a>
+          </div>
+          <ul class="navi">
+            <li class="item"><a href="../index.html" class="home">Home</a></li>
+            <li class="item category-more">
+              <a href="#" class="category">Category</a>
+              <i class="fa fa-caret-down dropdow_caret"></i>
+              <div class="dropdow">
+                <ul class="dropdow-list">
+                  <li class="dropdow-item">
+                    <a
+                      class="dropdow-effect"
+                      href="../Category/All products/index.html"
+                      ><span> All products </span></a
+                    >
+                  </li>
+                  <li class="dropdow-item">
+                    <a
+                      class="dropdow-effect"
+                      href="../Category/Furniture/index.html"
+                      ><span> Furniture </span></a
+                    >
+                  </li>
+                  <li class="dropdow-item">
+                    <a class="dropdow-effect" href="../Category/Sale/index.html"
+                      ><span> Sale </span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="item">
+              <a href="Blog/index.html" class="blog">Blog</a>
+            </li>
+            <li class="item">
+              <a href="About/index.html" class="about">About</a>
+            </li>
+          </ul>
+          <div class="wrap-search">
+            <i class="fa fa-search icon-search"></i>
+            <input type="text" class="input-search" placeholder="search..." />
+          </div>
+          <!-- begin cart -->
+          <div class="cart" style="pointer-events: none">
+            <div class="wrap-incon-cart">
+              <div class="count-holder">
+                <span class="count">0</span>
+              </div>
+              <i class="fa fa-shopping-cart icon-cart"></i>
+            </div>
+            <div class="action_dropdown_cart">
+              <div class="sitenav_content">
+                <div class="sitenav_content_title">
+                  <p class="text_title">Cart</p>
+                </div>
+                <div class="sitenav_content_block cart-view">
+                  <div class="cart-view-scroll">
+                    <div class="cart-view-render">
+                      <div class="mini-cart__empty" style="">
+                        <div>
+                          <div class="svgico-mini-cart">
+                            <svg
+                              width="81"
+                              height="70"
+                              viewBox="0 0 81 70"
+                              style="
+                                stroke: #000000;
+                                width: 50px;
+                                height: 50px;
+                                margin: 5px auto 0;
+                              "
+                            >
+                              <g
+                                transform="translate(0 2)"
+                                stroke-width="4"
+                                fill="none"
+                                fill-rule="evenodd"
+                              >
+                                <circle
+                                  stroke-linecap="square"
+                                  cx="34"
+                                  cy="60"
+                                  r="6"
+                                ></circle>
+                                <circle
+                                  stroke-linecap="square"
+                                  cx="67"
+                                  cy="60"
+                                  r="6"
+                                ></circle>
+                                <path
+                                  d="M22.9360352 15h54.8070373l-4.3391876 30H30.3387146L19.6676025 0H.99560547"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          Your cart is currently empty.
+                        </div>
+                      </div>
+                      <div class="cart-view-render-item"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-view-line"></div>
+                <div class="cart-view-total">
+                  <div class="cart_total_text">
+                    <span class="total_text">Total:</span>
+                    <span class="total_price">$0</span>
+                  </div>
+                  <form class="cart_button" action="../cart/page_cart.html">
+                    <button type="submit" class="btn btn-animation">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span>View Cart</span>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end cart  -->
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////////////////////////// -->
+    <main>
+      <div class="layout-cart"></div>
+      <div class="containr-cart">
+        <div class="content-cart">
+          <div class="contentCart-detail">
+            <div class="head-cart">
+              <h1>Your cart</h1>
+            </div>
+            <div class="cart-zezo">
+              <div class="cart-zezo-img">
+                <img src="./img/mascot@2x.png" alt="" />
+              </div>
+              <p>There are no products in your shopping cart.</p>
+              <a href="../index.html">Countinue shooping</a>
+            </div>
+            <div class="list-pageform-cart" style="display: none">
+              <div class="cart-row">
+                <p class="title-number-cart">
+                  You have
+                  <span class="count-cart">0 product</span>
+                  in your cart
+                </p>
+                <div class="table-cart"></div>
+              </div>
+              <div class="cart-row note-order">
+                <label for="note" class="note-label">Order notes</label>
+                <textarea
+                  class="form-control"
+                  id="note"
+                  name="note"
+                  rows="5"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="contentCart-sticky">
+            <div class="wrap-oder-summary">
+              <div class="wrap-summary-title">
+                <h2 class="sumary-title">Information order</h2>
+              </div>
+
+              <div class="summary-total">
+                <p>
+                  Total:
+                  <span class="total-order">0.00 USD</span>
+                </p>
+              </div>
+              <div class="summary-action">
+                <div class="summary-ship">
+                  <p>Shipping fee will be calculated at the checkout page.</p>
+                  <p>
+                    You can also enter the discount code at the checkout page.
+                  </p>
+                </div>
+
+                <a href="./checkout/checkout.html" style="color: white">
+                  <div class="summary-button" style="display: none">
+                    Payment
+                  </div>
+                </a>
+              </div>
+              <div class="notify-summary">
+                <p>Delivery policy</p>
+                <p>
+                  Currently, we only apply payment to orders with a minimum
+                  value of <span>15.00 USD</span> or more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- /////////////////////////////////////// -->
+    <div class="footer">
+      <div class="main-foot">
+        <div class="container">
+          <div class="foot-col">
+            <h3 class="footer-title">ABOUT US</h3>
+            <div class="textwidget">
+              WooCommerce is now the most popular eCommerce platform on the web
+              so you can rest assured you're in good company.
+            </div>
+          </div>
+          <div class="foot-col">
+            <h3 class="footer-title">WORK WITH US</h3>
+            <div class="textwidget">
+              We work with eCommerce solutions. Most popular eCommerce platform
+              on the web so you can rest assured you're in good company.
+            </div>
+          </div>
+          <div class="foot-col">
+            <h3 class="footer-title">NEWSLETTER</h3>
+            <form class="newsletter">
+              <p>
+                <label for="EMAIL" class="label-email">Email address:</label>
+                <input
+                  type="email"
+                  class="input-email"
+                  name="EMAIL"
+                  placeholder="Your email address"
+                  required=""
+                />
+              </p>
+              <p>
+                <input type="submit" class="btn-submit" value="Sign up" />
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-foot">
+        <div class="container">
+          <div class="foot-socials">
+            <ul>
+              <li><a href=""></a><i class="fa fa-twitter"></i></li>
+              <li><a href=""></a><i class="fa fa-facebook"></i></li>
+              <li><a href=""></a><i class="fa fa-google-plus"></i></li>
+              <li><a href=""></a><i class="fa fa-instagram"></i></li>
+              <li><a href=""></a><i class="fa fa-linkedin-square"></i></li>
+              <li><a href=""></a><i class="fa fa-vimeo-square"></i></li>
+              <li><a href=""></a><i class="fa fa-skype"></i></li>
+              <li><a href=""></a><i class="fa fa-youtube-square"></i></li>
+            </ul>
+            <p class="credits">
+              Copyrights. Powered by WordPress & WooCommerce
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../Products/Event/localStrange2.js"></script>
+    <script src="./rental_page_cart.js" type="module"></script>
+    <script src="../thandJs/menu-toggle.js"></script>
+  </body>
+</html>
+
+<!-- <div class="media-line-item">
+    <div class="item-left">
+      <div class="item-img">
+        <img src="../IMG/Product/blue cup.jpg" alt="" />
+      </div>
+    </div>
+    <div class="item-middle">
+      <h3 class="item-title">
+        <a href="#">Blue cup</a>
+      </h3>
+      <div class="item-price">
+        <span class="price-sale">
+          <span>$14.00</span>
+        </span>
+        <span class="price-cur">
+          <span>$6.00</span>
+        </span>
+      </div>
+    </div>
+    <div class="item-right">
+      <div class="item-total-price">
+        <span>$6.00</span>
+      </div>
+      <div class="item-qty">
+        <div class="quantity-selector">
+          <div class="btn_cart-minus button-minus">
+            <i class="" aria-hidden="true">-</i>
+          </div>
+          <input
+            type="text"
+            value="1"
+            min="1"
+            max="10"
+            style="pointer-events: none"
+            class="amount-cart"
+          />
+          <div class="btn_cart-plus button-plus">
+            <i class="" aria-hidden="true">+</i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item-trash">
+      <i styel class="fa fa-trash" aria-hidden="true"></i>
+    </div>
+  </div> -->

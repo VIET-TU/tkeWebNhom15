@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Xdfgfsdfjsdfjsdfjsif-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Table</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/header.css" />
+    <link rel="stylesheet" href="../cart/cart.css" />
+    <link rel="stylesheet" href="./CSS/footer.css" />
+    <link rel="stylesheet" href="./CSS/main.css" />
+  </head>
+  <body>
+    <div class="main-header">
+      <div class="wrap-menu-toogle">
+        <div class="menu-toogle">
+          <div class="wrap-nav-logo">
+            <div class="wrap-menu-toggle-navi">
+              <div class="wrap-icon-bar">
+                <i
+                  class="fa fa-bars menu-toggle-icon"
+                  style="pointer-events: visible"
+                ></i>
+              </div>
+              <ul class="menu-toggle-navi">
+                <li class="menu-toggle-item">
+                  <a href="../index.html" class="home">Home</a>
+                </li>
+                <li class="menu-toggle-item dropdow_nav">
+                  <a href="#" class="category" style="pointer-events: none"
+                    >Category</a
+                  >
+                  <i
+                    class="fa fa-caret-down dropdow_caret"
+                    style="pointer-events: none"
+                  >
+                  </i>
+                  <div class="menu-toggle-dropdow">
+                    <ul class="menu-toggle-dropdow-list">
+                      <li class="menu-toggle-dropdow-item">
+                        <a
+                          class="menu-toggle-dropdow-effect"
+                          href="../Category/All products/index.html"
+                          ><span> All products </span></a
+                        >
+                      </li>
+                      <li class="menu-toggle-dropdow-item">
+                        <a
+                          class="menu-toggle-dropdow-effect"
+                          href="../Category/Furniture/index.html"
+                          ><span> Furniture </span></a
+                        >
+                      </li>
+                      <li class="menu-toggle-dropdow-item">
+                        <a
+                          class="menu-toggle-dropdow-effect"
+                          href="../Category/Sale/index.html"
+                          ><span> Sale </span></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-toggle-item">
+                  <a href="Blog/index.html" class="blog">Blog</a>
+                </li>
+                <li class="menu-toggle-item">
+                  <a href="About/index.html" class="about">About</a>
+                </li>
+              </ul>
+            </div>
+            <div class="logo">
+              <a href="./index.html">
+                <img src="../IMG/IMG_LOGO/logo.png" alt="img" />
+              </a>
+            </div>
+          </div>
+          <div class="wrap-search-cart">
+            <div class="wrap-search">
+              <i class="fa fa-search icon-search"></i>
+            </div>
+            <div class="menu-toggle-cart">
+              <div class="wrap-incon-cart">
+                <div class="menu-toggle-count-holder">
+                  <span class="menu-toggle-count"></span>
+                </div>
+                <i class="fa fa-shopping-cart icon-cart"></i>
+              </div>
+              <div
+                class="menu-toggle-action_dropdown_cart action_dropdown_cart"
+              >
+                <div class="sitenav_content">
+                  <div class="sitenav_content_title">
+                    <p class="text_title">Cart</p>
+                  </div>
+                  <div class="sitenav_content_block cart-view">
+                    <div class="cart-view-scroll">
+                      <div class="menu-toggle-cart-view-render">
+                        <div class="menu-togglemini-cart__empty" style="">
+                          <div>
+                            <div class="svgico-mini-cart">
+                              <svg
+                                width="81"
+                                height="70"
+                                viewBox="0 0 81 70"
+                                style="
+                                  stroke: #000000;
+                                  width: 50px;
+                                  height: 50px;
+                                  margin: 5px auto 0;
+                                "
+                              >
+                                <g
+                                  transform="translate(0 2)"
+                                  stroke-width="4"
+                                  fill="none"
+                                  fill-rule="evenodd"
+                                >
+                                  <circle
+                                    stroke-linecap="square"
+                                    cx="34"
+                                    cy="60"
+                                    r="6"
+                                  ></circle>
+                                  <circle
+                                    stroke-linecap="square"
+                                    cx="67"
+                                    cy="60"
+                                    r="6"
+                                  ></circle>
+                                  <path
+                                    d="M22.9360352 15h54.8070373l-4.3391876 30H30.3387146L19.6676025 0H.99560547"
+                                  ></path>
+                                </g>
+                              </svg>
+                            </div>
+                            Your cart is currently empty.
+                          </div>
+                        </div>
+                        <div class="menu-toogle-cart-view-render-item"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart-view-line"></div>
+                  <div class="cart-view-total">
+                    <div class="cart_total_text">
+                      <span class="total_text">Total:</span>
+                      <span class="menu-toggle-total_price">$0</span>
+                    </div>
+                    <form class="cart_button" action="./cart/page_cart.html">
+                      <button type="submit" class="btn btn-animation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span>View Cart</span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrap-header">
+        <div class="wrap-menu-toogle">
+          <div class="menu-toogle">
+            <div class="wrap-nav-logo">
+              <div class="wrap-menu-toggle-navi">
+                <div class="wrap-icon-bar">
+                  <i
+                    class="fa fa-bars menu-toggle-icon"
+                    style="pointer-events: visible"
+                  ></i>
+                </div>
+                <ul class="menu-toggle-navi">
+                  <li class="menu-toggle-item">
+                    <a href="../index.html" class="home">Home</a>
+                  </li>
+                  <li class="menu-toggle-item dropdow_nav">
+                    <a href="#" class="category" style="pointer-events: none"
+                      >Category</a
+                    >
+                    <i
+                      class="fa fa-caret-down dropdow_caret"
+                      style="pointer-events: none"
+                    >
+                    </i>
+                    <div class="menu-toggle-dropdow">
+                      <ul class="menu-toggle-dropdow-list">
+                        <li class="menu-toggle-dropdow-item">
+                          <a
+                            class="menu-toggle-dropdow-effect"
+                            href="../Category/All products/index.html"
+                            ><span> All products </span></a
+                          >
+                        </li>
+                        <li class="menu-toggle-dropdow-item">
+                          <a
+                            class="menu-toggle-dropdow-effect"
+                            href="../Category/Furniture/index.html"
+                            ><span> Furniture </span></a
+                          >
+                        </li>
+                        <li class="menu-toggle-dropdow-item">
+                          <a
+                            class="menu-toggle-dropdow-effect"
+                            href="../Category/Sale/index.html"
+                            ><span> Sale </span></a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-toggle-item">
+                    <a href="Blog/index.html" class="blog">Blog</a>
+                  </li>
+                  <li class="menu-toggle-item">
+                    <a href="About/index.html" class="about">About</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="logo">
+                <a href="./index.html">
+                  <img src="../IMG/IMG_LOGO/logo.png" alt="img" />
+                </a>
+              </div>
+            </div>
+            <div class="wrap-search-cart">
+              <div class="wrap-search">
+                <i class="fa fa-search icon-search"></i>
+              </div>
+              <div class="menu-toggle-cart">
+                <div class="wrap-incon-cart">
+                  <div class="menu-toggle-count-holder">
+                    <span class="menu-toggle-count"></span>
+                  </div>
+                  <i class="fa fa-shopping-cart icon-cart"></i>
+                </div>
+                <div
+                  class="menu-toggle-action_dropdown_cart action_dropdown_cart"
+                >
+                  <div class="sitenav_content">
+                    <div class="sitenav_content_title">
+                      <p class="text_title">Cart</p>
+                    </div>
+                    <div class="sitenav_content_block cart-view">
+                      <div class="cart-view-scroll">
+                        <div class="menu-toggle-cart-view-render">
+                          <div class="menu-togglemini-cart__empty" style="">
+                            <div>
+                              <div class="svgico-mini-cart">
+                                <svg
+                                  width="81"
+                                  height="70"
+                                  viewBox="0 0 81 70"
+                                  style="
+                                    stroke: #000000;
+                                    width: 50px;
+                                    height: 50px;
+                                    margin: 5px auto 0;
+                                  "
+                                >
+                                  <g
+                                    transform="translate(0 2)"
+                                    stroke-width="4"
+                                    fill="none"
+                                    fill-rule="evenodd"
+                                  >
+                                    <circle
+                                      stroke-linecap="square"
+                                      cx="34"
+                                      cy="60"
+                                      r="6"
+                                    ></circle>
+                                    <circle
+                                      stroke-linecap="square"
+                                      cx="67"
+                                      cy="60"
+                                      r="6"
+                                    ></circle>
+                                    <path
+                                      d="M22.9360352 15h54.8070373l-4.3391876 30H30.3387146L19.6676025 0H.99560547"
+                                    ></path>
+                                  </g>
+                                </svg>
+                              </div>
+                              Your cart is currently empty.
+                            </div>
+                          </div>
+                          <div class="menu-toogle-cart-view-render-item"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cart-view-line"></div>
+                    <div class="cart-view-total">
+                      <div class="cart_total_text">
+                        <span class="total_text">Total:</span>
+                        <span class="menu-toggle-total_price">$0</span>
+                      </div>
+                      <form class="cart_button" action="./cart/page_cart.html">
+                        <button type="submit" class="btn btn-animation">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span>View Cart</span>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header" id="head">
+          <div class="logo">
+            <a href="#head">
+              <img src="../IMG/IMG_LOGO/logo.png " />
+            </a>
+          </div>
+          <ul class="navi">
+            <li class="item"><a href="../index.html" class="home">Home</a></li>
+            <li class="item category-more">
+              <a href="#" class="category">Category</a>
+              <i class="fa fa-caret-down dropdow_caret"></i>
+              <div class="dropdow">
+                <ul class="dropdow-list">
+                  <li class="dropdow-item">
+                    <a
+                      class="dropdow-effect"
+                      href="../Category/All products/index.html"
+                      ><span> All products </span></a
+                    >
+                  </li>
+                  <li class="dropdow-item">
+                    <a
+                      class="dropdow-effect"
+                      href="../Category/Furniture/index.html"
+                      ><span> Furniture </span></a
+                    >
+                  </li>
+                  <li class="dropdow-item">
+                    <a class="dropdow-effect" href="../Category/Sale/index.html"
+                      ><span> Sale </span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="item">
+              <a href="../Blog/index.html" class="blog">Blog</a>
+            </li>
+            <li class="item">
+              <a href="../About/index.html" class="about">About</a>
+            </li>
+          </ul>
+          <div class="wrap-search">
+            <i class="fa fa-search icon-search"></i>
+            <input type="text" class="input-search" placeholder="search..." />
+          </div>
+          <div class="cart">
+            <div class="wrap-incon-cart">
+              <div class="count-holder">
+                <span class="count">0</span>
+              </div>
+              <i class="fa fa-shopping-cart icon-cart"></i>
+            </div>
+            <div class="action_dropdown_cart">
+              <div class="sitenav_content">
+                <div class="sitenav_content_title">
+                  <p class="text_title">Cart</p>
+                </div>
+                <div class="sitenav_content_block cart-view">
+                  <div class="cart-view-scroll">
+                    <div class="cart-view-render">
+                      <div class="mini-cart__empty" style="">
+                        <div>
+                          <div class="svgico-mini-cart">
+                            <svg
+                              width="81"
+                              height="70"
+                              viewBox="0 0 81 70"
+                              style="
+                                stroke: #000000;
+                                width: 50px;
+                                height: 50px;
+                                margin: 5px auto 0;
+                              "
+                            >
+                              <g
+                                transform="translate(0 2)"
+                                stroke-width="4"
+                                fill="none"
+                                fill-rule="evenodd"
+                              >
+                                <circle
+                                  stroke-linecap="square"
+                                  cx="34"
+                                  cy="60"
+                                  r="6"
+                                ></circle>
+                                <circle
+                                  stroke-linecap="square"
+                                  cx="67"
+                                  cy="60"
+                                  r="6"
+                                ></circle>
+                                <path
+                                  d="M22.9360352 15h54.8070373l-4.3391876 30H30.3387146L19.6676025 0H.99560547"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          Your cart is currently empty.
+                        </div>
+                      </div>
+                      <div class="cart-view-render-item"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-view-line"></div>
+                <div class="cart-view-total">
+                  <div class="cart_total_text">
+                    <span class="total_text">Total:</span>
+                    <span class="total_price">$0</span>
+                  </div>
+                  <form class="cart_button" action="../cart/page_cart.html">
+                    <button type="submit" class="btn btn-animation">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span>View Cart</span>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////////////////////////// -->
+    <main>
+      <div class="wrapper-container">
+        <div class="container">
+          <div class="container__photo">
+            <div class="container__photo-items">
+              <div class="wrapper-onsale">
+                <span class="onsale" style="">Sale!</span>
+              </div>
+              <i class="fa fa-search-plus icon-zoo" aria-hidden="true"></i>
+              <div class="image-wrapper">
+                <img src="" alt="" class="image img-render" />
+                <div class="image-cover"></div>
+              </div>
+            </div>
+            <ol class="flex-control-nav fle`x-control-thumbs">
+              <li>
+                <img
+                  onload="this.width = this.naturalWidth; this.height = this.naturalHeight"
+                  src=""
+                  class="img-nav img-frist"
+                  draggable="false"
+                  width="100"
+                  height="100"
+                  style="height: 100%"
+                  data-index="1"
+                />
+              </li>
+              <li>
+                <img
+                  onload="this.width = this.naturalWidth; this.height = this.naturalHeight"
+                  src="./img/table2.jpg"
+                  draggable="false"
+                  width="100"
+                  height="100"
+                  class="img-nav flex-active"
+                  data-index="2"
+                />
+              </li>
+              <li>
+                <img
+                  onload="this.width = this.naturalWidth; this.height = this.naturalHeight"
+                  src="./img/cup2.jpg"
+                  draggable="false"
+                  width="100"
+                  height="100"
+                  class="img-nav flex-active"
+                  data-index="3"
+                />
+              </li>
+              <li>
+                <img
+                  onload="this.width = this.naturalWidth; this.height = this.naturalHeight"
+                  src="./img/bench1.jpg"
+                  draggable="false"
+                  width="100"
+                  height="100"
+                  class="img-nav flex-active"
+                  data-index="4"
+                />
+              </li>
+              <script src="./Event/"></script>
+            </ol>
+          </div>
+          <div class="container__paragraph">
+            <h1 class="product-tilte"></h1>
+            <div class="container__paragraph-item">
+              <div class="price">
+                <span class="price-sale"></span>
+                <span class="price-curent active" style=""></span>
+              </div>
+              <p class="container__paragraph-p">
+                Simplicity and functionalism to design buildings, furniture and
+                household objects, many of which have become iconic and are
+                still in use and production. Prominent examples are the egg
+                chair, PH lamp and the Sydney Opera House. Danish designers used
+                the new industrial technologies, combined with ideas of
+                simplicity and functionalism to design buildings, furniture and
+                household objects, many of which have become iconic and are
+                still in use and production. Prominent examples are the egg
+                chair, PH lamp and the Sydney Opera House.
+              </p>
+            </div>
+            <div class="amount-rest">
+              <span>Amount: </span>
+              <span class="amount-number">10</span>
+            </div>
+            <div class="container__paragraph-a">
+              <div class="cart-poduct">
+                <div class="btn_cart-minus">
+                  <i class="" aria-hidden="true">-</i>
+                </div>
+                <input
+                  class="text-mount"
+                  type="text"
+                  value="1"
+                  max="10"
+                  style="pointer-events: none"
+                />
+                <div class="btn_cart-plus">
+                  <i class="" aria-hidden="true">+</i>
+                </div>
+              </div>
+              <button class="button btn-button btn-add-cart" type="submit">
+                ADD TO CART
+              </button>
+            </div>
+            <div class="container__paragraph-product">
+              SKU:
+              <span>BT9475</span>
+              Categories:
+              <a href="" style="color: black">All Products</a>
+              ,
+              <a href="" style="color: black">Modern</a>
+              ,
+              <a href="" style="color: black">Products</a>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper_desc-review">
+          <ul class="desc-review">
+            <li class="desc-tap active-desc-revi" name="desc">Description</li>
+            <li class="review-tap" name="review">Reviews (0)</li>
+          </ul>
+          <div class="tap-panel-desc" id="desc" style="">
+            <h2>Description</h2>
+            <p>
+              Simplicity and functionalism to design buildings, furniture and
+              household objects, many of which have become iconic and are still
+              in use and production. Prominent examples are the egg chair, PH
+              lamp and the Sydney Opera House. Danish designers used the new
+              industrial technologies, combined with ideas of simplicity and
+              functionalism to design buildings, furniture and household
+              objects, many of which have become iconic and are still in use and
+              production. Prominent examples are the egg chair, PH lamp and the
+              Sydney Opera House.
+            </p>
+          </div>
+          <div class="tap-panel-review" id="review" style="display: none">
+            <div class="comments">
+              <h2 class="reviews-title">Reviews</h2>
+              <p class="reivew-desc">There are no reviews yet.</p>
+            </div>
+            <div class="reviews-form-wrapper">
+              <form class="reviews-form">
+                <p class="reply-title">
+                  Be the first to review “Black Table” <br />
+                  Your email address will not be published. Required fields are
+                  marked *
+                </p>
+                <div class="form-rating">
+                  <span> Your rating *</span>
+                  <ul class="star">
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                  </ul>
+                </div>
+                <p class="comment-form-comment">
+                  <label for="comment"
+                    >Your review&nbsp;<span class="required">*</span></label
+                  ><textarea
+                    id="comment"
+                    name="comment"
+                    cols="45"
+                    rows="8"
+                    required=""
+                  ></textarea>
+                </p>
+                <p class="comment-form-email">
+                  <label for="name"
+                    >Name&nbsp;<span class="required">*</span></label
+                  ><input
+                    id="name"
+                    name="email"
+                    type="text"
+                    value=""
+                    size="30"
+                    required=""
+                  />
+                </p>
+                <p class="comment-form-email">
+                  <label for="email"
+                    >Email&nbsp;<span class="required">*</span></label
+                  ><input
+                    id="email"
+                    name="email"
+                    type="email"
+                    value=""
+                    size="30"
+                    required=""
+                  />
+                </p>
+                <p class="comment-form-cookies-consent">
+                  <input
+                    id="wp-comment-cookies-consent"
+                    name="wp-comment-cookies-consent"
+                    type="checkbox"
+                    value="yes"
+                  />
+                  <label for="wp-comment-cookies-consent"
+                    >Save my name, email, and website in this browser for the
+                    next time I comment.</label
+                  >
+                </p>
+                <p class="form-submit">
+                  <input
+                    name="submit"
+                    type="submit"
+                    id="submit"
+                    class="submit"
+                    value="Submit"
+                  />
+                  <input
+                    type="hidden"
+                    name="comment_post_ID"
+                    value="227"
+                    id="comment_post_ID"
+                  />
+                  <input
+                    type="hidden"
+                    name="comment_parent"
+                    id="comment_parent"
+                    value="0"
+                  />
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="tab">
+          <h3>Related products</h3>
+          <ul class="tab__list"></ul>
+        </div>
+      </div>
+    </main>
+    <!-- /////////////////////////////////////// -->
+    <div class="footer">
+      <div class="main-foot">
+        <div class="container">
+          <div class="foot-col">
+            <h3 class="footer-title">ABOUT US</h3>
+            <div class="textwidget">
+              WooCommerce is now the most popular eCommerce platform on the web
+              so you can rest assured you're in good company.
+            </div>
+          </div>
+          <div class="foot-col">
+            <h3 class="footer-title">WORK WITH US</h3>
+            <div class="textwidget">
+              We work with eCommerce solutions. Most popular eCommerce platform
+              on the web so you can rest assured you're in good company.
+            </div>
+          </div>
+          <div class="foot-col">
+            <h3 class="footer-title">NEWSLETTER</h3>
+            <form class="newsletter">
+              <p>
+                <label for="EMAIL" class="label-email">Email address:</label>
+                <input
+                  type="email"
+                  class="input-email"
+                  name="EMAIL"
+                  placeholder="Your email address"
+                  required=""
+                />
+              </p>
+              <p>
+                <input type="submit" class="btn-submit" value="Sign up" />
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-foot">
+        <div class="container">
+          <div class="foot-socials">
+            <ul>
+              <li><a href=""></a><i class="fa fa-twitter"></i></li>
+              <li><a href=""></a><i class="fa fa-facebook"></i></li>
+              <li><a href=""></a><i class="fa fa-google-plus"></i></li>
+              <li><a href=""></a><i class="fa fa-instagram"></i></li>
+              <li><a href=""></a><i class="fa fa-linkedin-square"></i></li>
+              <li><a href=""></a><i class="fa fa-vimeo-square"></i></li>
+              <li><a href=""></a><i class="fa fa-skype"></i></li>
+              <li><a href=""></a><i class="fa fa-youtube-square"></i></li>
+            </ul>
+            <p class="credits">
+              Copyrights. Powered by WordPress & WooCommerce
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./Event/rednder2.js" type="module"></script>
+    <script src="./Event/app.js"></script>
+    <script src="./Event/localStrange2.js"></script>
+    <script src="../cart/cartData.js" type="module"></script>
+    <script src="../cart/cartData.js" type="module"></script>
+    <!-- <script src="../thandJs/loaclStrange.js"></script> -->
+    <script src="../thandJs/menu-toggle.js"></script>
+  </body>
+</html>

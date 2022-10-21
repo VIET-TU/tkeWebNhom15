@@ -1,0 +1,10 @@
+"Phường Cầu Diễn",
+  "Phường Mễ Trì",
+  "Phường Mỹ Đình 1",
+  "Phường Mỹ Đình 2",
+  "Phường Phú Đô",
+  "Phường Phương Canh",
+  "Phường Trung Văn",
+  "Phường Tây Mỗ",
+  "Phường Xuân Phương",
+  "Phường Đại Mỗ";

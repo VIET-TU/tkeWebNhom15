@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VITURAL HANOI VIETNAM</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="wrap-content">
+      <div class="content">
+        <div class="wrap-main">
+          <div class="main">
+            <div class="main-header">
+              <h1>VITURAL STORE HANOI VIETNAM</h1>
+              <ul class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="../page_cart.html">Giỏ hàng</a>
+                </li>
+                <li class="#">Thông tin giao hàng</li>
+              </ul>
+            </div>
+            <div class="main-content">
+              <div class="step">
+                <div class="step-section">
+                  <div class="section">
+                    <div class="section-header">
+                      <h2>Thông tin giao hàng</h2>
+                    </div>
+                    <div class="section-content">
+                      <form
+                        action="./checkout_step_2/checkout_step2.html"
+                        class="form-main"
+                        method="GET"
+                      >
+                        <div class="yourName">
+                          <div class="text-field">
+                            <label for="username3">Họ và tên</label>
+                            <input
+                              name="name-clinet"
+                              autocomplete="off"
+                              type="text"
+                              id="username3"
+                              placeholder="Nhập họ tên"
+                            />
+                          </div>
+                        </div>
+                        <div class="contact">
+                          <div class="contact-email">
+                            <div class="text-field">
+                              <label for="email">Email</label>
+                              <input
+                                autocomplete="off"
+                                type="text"
+                                name="email"
+                                id="email"
+                                placeholder="Nhập email"
+                              />
+                            </div>
+                          </div>
+                          <div class="contact-phone">
+                            <div class="text-field">
+                              <label for="phone">Số điện thoại</label>
+                              <input
+                                autocomplete="off"
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Nhập số điện thoại"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="section-selcet">
+                          <div class="select-city">
+                            <select name="city" class="city" class>
+                              <option value="null">Tỉnh / Thành</option>
+                              <option value="Hà Nội">Hà Nội</option>
+                            </select>
+                          </div>
+
+                          <div
+                            class="select-distric"
+                            style="pointer-events: none; opacity: 0.5"
+                          >
+                            <select name="distric" class="distric">
+                              <option value="null">Quận / Huyện</option>
+                            </select>
+                          </div>
+                          <div
+                            class="select-ward"
+                            style="pointer-events: none; opacity: 0.5"
+                          >
+                            <select name="ward" class="ward">
+                              <option value="null">Phường / Xã</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="address">
+                          <div class="text-field">
+                            <label for="address">Địa chỉ</label>
+                            <input
+                              autocomplete="off"
+                              type="text"
+                              id="address"
+                              name="address"
+                              placeholder="Nhập địa chỉ cụ thể"
+                            />
+                          </div>
+                        </div>
+                        <div class="wrap-btn">
+                          <button type="submit" class="btn-continue-payment">
+                            Tiếp tục đến phương thức thanh toán
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="step-footer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-sidebar">
+          <div class="siderbar">
+            <div class="sliderbar-content">
+              <div class="table-cart"></div>
+              <div class="discoutn">
+                <form>
+                  <input
+                    class="input-discoutn"
+                    type="text"
+                    id="in-discount"
+                    placeholder="Mã giảm giá"
+                  />
+                  <button
+                    type="button"
+                    class="btn-discount"
+                    style="pointer-events: none"
+                  >
+                    Áp dụng
+                  </button>
+                </form>
+                <div style="display: flex; align-items: center">
+                  <svg
+                    width="15"
+                    height="10"
+                    viewBox="0 0 18 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="width: 15px; height: 10px; fill: none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M17.3337 5.3335V2.00016C17.3337 1.07516 16.5837 0.333496 15.667 0.333496H2.33366C1.41699 0.333496 0.675326 1.07516 0.675326 2.00016V5.3335C1.59199 5.3335 2.33366 6.0835 2.33366 7.00016C2.33366 7.91683 1.59199 8.66683 0.666992 8.66683V12.0002C0.666992 12.9168 1.41699 13.6668 2.33366 13.6668H15.667C16.5837 13.6668 17.3337 12.9168 17.3337 12.0002V8.66683C16.417 8.66683 15.667 7.91683 15.667 7.00016C15.667 6.0835 16.417 5.3335 17.3337 5.3335ZM15.667 4.11683C14.6753 4.69183 14.0003 5.77516 14.0003 7.00016C14.0003 8.22516 14.6753 9.3085 15.667 9.8835V12.0002H2.33366V9.8835C3.32533 9.3085 4.00033 8.22516 4.00033 7.00016C4.00033 5.76683 3.33366 4.69183 2.34199 4.11683L2.33366 2.00016H15.667V4.11683ZM9.83366 9.50016H8.16699V11.1668H9.83366V9.50016ZM8.16699 6.16683H9.83366V7.8335H8.16699V6.16683ZM9.83366 2.8335H8.16699V4.50016H9.83366V2.8335Z"
+                      fill="#318DBB"
+                    ></path>
+                  </svg>
+                  <span style="color: #338dbc; margin-left: 10px"
+                    >Xem thêm mã giảm giá</span
+                  >
+                </div>
+                <div class="list_short_coupon">
+                  <div>
+                    <label class="sale-10" for="in-discount">Giảm 10%</label>
+                  </div>
+                  <div>
+                    <label class="sale-5" for="in-discount">Giảm 5%</label>
+                  </div>
+                </div>
+              </div>
+              <div class="total-line-table">
+                <div class="table-body">
+                  <div class="total-line-subotal">
+                    <div class="total-line-name">Tạm tính</div>
+                    <div class="order-summary-subotal">0 VND</div>
+                  </div>
+                  <div class="total-line-discount">
+                    <div class="total-line-name">Phí giảm giá</div>
+                    <div class="order-summary-discount">—</div>
+                  </div>
+                  <div class="total-line-ship">
+                    <div class="total-line-name">Phí vận chuyển</div>
+                    <div class="order-summary-ship">—</div>
+                  </div>
+                </div>
+
+                <div class="table-footer">
+                  <div class="total-line-name-footer">Tổng cộng</div>
+                  <div
+                    class="wrap-price-footer"
+                    style="display: flex; align-items: center"
+                  >
+                    <div class="payment-doe-price">0</div>
+                    <span style="margin-left: 5px">VND</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./renderCheckout.js"></script>
+  </body>
+</html>

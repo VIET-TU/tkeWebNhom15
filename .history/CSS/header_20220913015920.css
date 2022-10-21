@@ -1,0 +1,144 @@
+html {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  input,
+  textarea,
+  select,
+  button {
+    outline: none;
+  }
+  input {
+    line-height: normal;
+  }
+  label,
+  button {
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  body{
+    height: 1000px;
+  }
+/* /////////// HEADER  /////////// */
+.main-header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  /* background-color: aqua; */
+}
+.header{
+    width: 100%;
+    padding:0 190px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  .logo{
+
+}
+.navi{
+    display: flex;
+    width: max-content;
+}
+.navi a{
+  color: #4a4a4a;;
+
+}
+.navi li{
+  list-style-type: none;
+    /* width: max-content; */
+    white-space: nowrap;
+    padding:  30px 15px;
+    cursor: pointer;
+    color: #999;
+    font-weight: 600;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    border-bottom: 2px solid white;
+}
+
+.wrap-search{
+  position: relative;
+}
+.icon-search{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translate(-50%,-50%);
+  font-size: 13px;
+}
+.input-search{
+  width: 200px;
+  height: 35px;
+  padding-left: 35px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  font-size: 16px;
+}
+
+.icon-cart{
+  font-size: 20px;
+}
+.navi .item.active a{
+  color: #6a5af9;
+} 
+
+.navi .item:hover{
+    color: #6a5af9;
+  border-bottom-color: currentColor;
+}
+
+.navi .item.active{
+  border-bottom-color: #6a5af9;
+}
+
+/* FORTER */
+.footer{
+  margin-top: 400px;
+}
+.main-foot{
+  background-color:
+#f8f8f8;
+background-position:
+0px 0px;
+color:#333333;
+font-size:14px;
+letter-spacing:1.5px;
+line-height:19.6px;
+padding:15px 1px 28px 2px;
+}
+
+.container:first-child{
+  color:
+#333333;
+font-size:
+13px;
+letter-spacing:
+1.5px;
+line-height:
+19.6px;
+padding:
+0px 15px;
+}
