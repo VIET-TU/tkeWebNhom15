@@ -327,9 +327,15 @@ h1 {
   /* font-family: "Dancing Script", cursive; */
   font-size: 40px;
 }
-.wrap-desc {
-  font-family: "Dancing Script", cursive;
+.wrap-desc h3 {
+  font-size: 30px;
 }
+.wrap-desc {
+  font-family: "Farsan", cursive;
+  /* font-weight: bold; */
+  font-size: 25px;
+}
+
 .wrap-menu-toogle {
   display: none;
 }
